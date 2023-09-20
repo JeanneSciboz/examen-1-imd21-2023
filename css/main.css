@@ -25,6 +25,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   max-width: 428px;
+  text-align: center;
 }
 
 a {
@@ -40,11 +41,31 @@ video {
 
 .title {
   background: var(--purple);
+  font-size: 20px;
+  font-family: Noto serif;
+  color: white;
+  font-weight: 300;
+  padding: 20px;
+  text-transform: uppercase;
 }
 
 h1 {
   font-size: 50px;
-  text-transform: uppercase;
   font-family: Nunito Sans;
   font-weight: 800;
+  color: black;
+}
+
+.number {
+  font-family: Noto serif;
+  font-weight: 300;
+}
+
+nav {
+  background: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Noto serif;
+  padding: 20px 0;
 }
