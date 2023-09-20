@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --purple: #d7a1fd;
 }
 
 /* ====================================
@@ -23,6 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  max-width: 428px;
 }
 
 a {
@@ -34,4 +36,15 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+.title {
+  background: var(--purple);
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: Nunito Sans;
+  font-weight: 800;
 }
