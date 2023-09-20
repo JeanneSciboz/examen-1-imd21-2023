@@ -39,6 +39,9 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+.img-border {
   border-bottom: solid 7px var(--purple);
 }
 
@@ -139,4 +142,37 @@ h3 {
   font-style: normal;
   font-weight: 300;
   padding-top: 20px;
+}
+
+.section-new {
+  background: var(--beige);
+  padding-bottom: 60px;
+}
+
+.container-new {
+  display: flex;
+  margin: 0 20px;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.elemen-new {
+  background: white;
+  border-radius: 20px;
+}
+
+.img-new {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.opportunities {
+  font-family: Nunito Sans;
+  font-weight: 800;
+  letter-spacing: -2.5px;
+  background-color: var(--purple);
+  padding: 20px;
 }
