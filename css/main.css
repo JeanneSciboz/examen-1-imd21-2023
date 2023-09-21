@@ -6,6 +6,7 @@
   --purple: #d7a1fd;
   --green: #98fb00;
   --beige: #f4ede8;
+  --grey: #313131;
 }
 
 /* ====================================
@@ -109,7 +110,14 @@ h3 {
   border-left: solid 1px;
   border-right: solid 1px;
   padding-top: 20px;
+}
+
+.south-africa {
   padding-bottom: 54px;
+}
+
+.brazil {
+  padding-bottom: 30px;
 }
 
 .button {
@@ -157,6 +165,7 @@ h3 {
   font-style: normal;
   font-weight: 300;
   line-height: 22px;
+  gap: 10px;
 }
 
 .elemen-new {
@@ -191,4 +200,40 @@ h3 {
   letter-spacing: -1px;
   text-transform: uppercase;
   padding: 20px 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 112px;
+}
+
+.title-transform {
+  font-family: Nunito Sans;
+  font-weight: 800;
+  color: var(--grey);
+  padding-top: 20px;
+}
+
+h3 {
+  font-family: Nunito Sans;
+  font-size: 13px;
+  font-family: Nunito Sans;
+  font-size: 13px;
+}
+
+.container-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title-article {
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
 }
