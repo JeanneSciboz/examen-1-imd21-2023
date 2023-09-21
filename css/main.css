@@ -125,7 +125,7 @@ h3 {
 }
 
 .brazil {
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .button {
@@ -178,11 +178,13 @@ h3 {
 
 .text-new {
   padding: 20px;
+  text-align: left;
 }
 
 .elemen-new {
   background: white;
   border-radius: 20px;
+  width: 189px;
 }
 
 .img-new {
@@ -202,6 +204,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 60px;
+  text-align: left;
 }
 
 .text-block {
@@ -235,8 +238,7 @@ footer {
 h3 {
   font-family: Nunito Sans;
   font-size: 13px;
-  font-family: Nunito Sans;
-  font-size: 13px;
+  font-weight: 800;
 }
 
 .container-info {
