@@ -68,13 +68,17 @@ h1 {
   font-weight: 300;
 }
 
-nav {
+.nav {
   background: black;
   color: white;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 300;
   font-family: Noto serif;
   padding: 20px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 h2 {
@@ -82,6 +86,10 @@ h2 {
   font-weight: 300;
   font-family: Noto serif;
   text-transform: uppercase;
+  padding: 60px 20px 30px;
+}
+
+.title-serif {
   padding: 60px 20px 30px;
 }
 
@@ -168,6 +176,10 @@ h3 {
   gap: 10px;
 }
 
+.text-new {
+  padding: 20px;
+}
+
 .elemen-new {
   background: white;
   border-radius: 20px;
@@ -188,6 +200,8 @@ h3 {
 
 .container-opportunities {
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .text-block {
@@ -200,6 +214,7 @@ h3 {
   letter-spacing: -1px;
   text-transform: uppercase;
   padding: 20px 10px;
+  width: 50%;
 }
 
 footer {
@@ -210,7 +225,7 @@ footer {
   padding-bottom: 112px;
 }
 
-.title-transform {
+.transform {
   font-family: Nunito Sans;
   font-weight: 800;
   color: var(--grey);
@@ -236,4 +251,12 @@ h3 {
   font-style: italic;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.text-2 {
+  border-left: none;
+}
+
+.text-3 {
+  border-top: none;
 }
